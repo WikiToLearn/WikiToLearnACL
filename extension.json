@@ -12,13 +12,9 @@
         "WikiToLearnACLHooks":"WikiToLearnACLHooks.php"
     },
     "MessagesDirs":{
-        "WikiToLearnACL":[
-            "i18n"
-        ]
     },
     "ExtensionMessagesFiles": {
-        "WikiToLearnACLAlias": "WikiToLearnACL.alias.php"
-    },
+    g},
     "ResourceFileModulePaths": {
         "localBasePath": ""
     },
