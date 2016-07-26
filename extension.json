@@ -1,0 +1,51 @@
+{
+    "name":"WikiToLearnACL",
+    "version":"0.1.0",
+    "author":[
+        "Alessandro Tundo",
+        "Riccardo Iaconelli"
+    ],
+    "url":"https://github.com/WikiToLearn/WikiToLearnACL",
+    "descriptionmsg":"",
+    "license-name":"GPLv3",
+    "type":"special",
+    "AutoloadClasses":{
+        "WikiToLearnACL":"WikiToLearnACL.php",
+        "WikiToLearnACLHooks":"WikiToLearnACLHooks.php",
+        "SpecialWikiToLearnACL":"SpecialWikiToLearnACL.php"
+    },
+    "MessagesDirs":{
+        "WikiToLearnACL":[
+            "i18n"
+        ]
+    },
+    "ExtensionMessagesFiles": {
+        "WikiToLearnACLAlias": "WikiToLearnACL.alias.php"
+    },
+    "ResourceFileModulePaths": {
+        "localBasePath": ""
+    },
+    "ResourceModules": {
+        "ext.WikiToLearnACL": {
+           "scripts":[],
+            "dependencies": [
+                "oojs-ui"
+            ],
+            "styles": [
+            ],
+            "messages": [
+                "WikiToLearnACL"
+            ]
+        }
+    },
+    "config":{
+
+    },
+    "Hooks":{
+
+    },
+    "SpecialPages": {
+        "WikiToLearnACL": "SpecialWikiToLearnACL"
+    },
+    "manifest_version":1
+}
