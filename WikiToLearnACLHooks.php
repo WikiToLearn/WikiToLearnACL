@@ -13,7 +13,7 @@ class WikiToLearnACLHooks
 
         # If we're not deleting, or we are allowed to do everything, let's just
         # not mind
-        if (!($action == 'delete') || $user->isAllowed('wtl_editalluserpages')) {
+        if (!($action == 'delete') || $user->isAllowed('wtl_deleteallpages')) {
             return true;
         }
 
